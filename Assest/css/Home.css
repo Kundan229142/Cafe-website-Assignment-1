@@ -1,0 +1,36 @@
+marquee{
+    color: blue;
+    background-color: red;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.Login_box{
+    height: 300px;
+    width: 700px;
+    margin: 3%;
+    padding: 50px;
+    color: white;
+}
+.Login_box h1{
+    font-size: 60px;
+}
+.Login_box h2{
+    font-size: 40px;
+}
+span{
+    color: blue;
+}
+.Login_box a input{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.Login_box a input:hover {
+    background-color: red;
+    border: 2px solid blue;
+  }

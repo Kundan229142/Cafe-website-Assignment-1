@@ -1,0 +1,43 @@
+/* about */
+div.box{
+    /* height: 700px;
+    width: 300px; */
+    height: 600px;
+    width: 700px;
+    text-align: center;
+    border-radius: 30px;
+    background-image: linear-gradient(yellow, white,blue);
+    padding: 10px 50px;
+}
+div.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.box h1{
+    color: blue;
+    margin: 30px 0 30px 0;
+}
+.box p{
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+span{
+    color: red;
+}
+.box input{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 20px ;
+    border: 2px solid blue;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.box input:hover{
+    background-color: blue;
+    border: 2px solid red;
+  }

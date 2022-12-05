@@ -1,0 +1,33 @@
+.table_box{
+    height: 600px;
+    width: 700px;
+    border-radius: 30px;
+    background-image: linear-gradient(yellow, white,blue);
+    padding: 10px 50px;
+    margin: 0 25% 0 25%;
+    position: relative;
+}
+table{
+    background-color: rgb(236, 255, 193);
+    border: 4px solid blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.table_box h1{
+    color: blue;
+    text-align: center;
+}
+th{
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+}

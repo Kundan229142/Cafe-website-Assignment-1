@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  system-ui;
+}
+/* body{
+    background-image: url(/Assest/images/background.webp);
+    background-size: cover;
+} */
+
+/* navbar */
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 10px 10px;
+    background-color: blue;
+}
+
+/* Logo  */
+
+div.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+}
+div.logo{
+    align-items: center;
+    display: flex;
+}
+.logo h1{
+    color: white;
+    font-size: 50px;
+    padding-left: 20px ;
+}
+.logo span{
+    color: red;
+}
+
+
+/* nav list  */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
